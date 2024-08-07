@@ -3,10 +3,11 @@ name: batch build and test
 on:
   push:
     branches: [ "main" ,"develop" ]
-  pull_request:
-    branches: [ "main", "develop" ]
+# PRでのCI実行は必要であれば行う
+#  pull_request:
+#    branches: [ "main", "develop" ]
 
-# TODO 最規模化した場合はキャッシュを入れる
+# TODO 規模拡大した場合はキャッシュを入れる
 jobs:
   build:
     runs-on: ubuntu-latest
