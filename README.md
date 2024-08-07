@@ -1,7 +1,7 @@
 # typescript-boilerplate-202408
 
 - サーバサイドバッチ用の boilerplate 2024年8月板
-- コピペして、`package.json` の
+- コピペして、`batch/package.json` の `name` を修正。
 
 # 構成
 
