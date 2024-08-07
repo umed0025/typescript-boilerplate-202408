@@ -1,0 +1,19 @@
+name: batch build and test
+
+on:
+  push:
+    branches: [ "main" ,"develop" ]
+  pull_request:
+    branches: [ "main", "develop" ]
+
+# TODO 最規模化した場合はキャッシュを入れる
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: volta-cli/action@v4
+      - run: yarn install
+      - env:
+          TZ: 'Asia/Tokyo' # タイムゾーン指定
+        run: yarn test

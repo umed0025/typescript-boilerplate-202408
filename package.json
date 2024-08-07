@@ -1,0 +1,23 @@
+{
+  "name": "typescript-boilerplate-202408",
+  "version": "1.0.0",
+  "author": "umed0025 <umed0025@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "yarn jest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.1.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  },
+  "volta": {
+    "node": "22.6.0",
+    "yarn": "1.22.22"
+  }
+}
