@@ -5,15 +5,15 @@
 
 # 構成
 
+## 開発用依存関係
+
 | name             | version | 備考                            |
 |------------------|---------|-------------------------------|
 | @biomejs/biome   | 1.8.3   | linter/formatter              |
 | typescript       | 5.5.4   | typescript                    |
 | @tsconfig/node22 | 22.0.0  | tsconfig の node22 base config |
 | @types/node      | 22.1.00 | nodejs の型指定                   |
-| jest             | 29.7.0  | テストフレームワーク                    |
-| @types/jest      | 29.5.12 | jest の 型指定                    |
-| ts-jest          | 29.2.4  | typescript で jest 動かすためのランナー  |
+| vitest           | 2.0.5   | テストフレームワーク                    |
 
 # 言語／パッケージ管理
 
@@ -22,6 +22,18 @@
 | node  | 22.6.0  | nodejs lts                  |
 | yarn  | 1.22.22 | WebStorm では yarn 1 のみ対応している |
 | volta | 1.1.1   | nodejs/yarn の管理             |
+
+# 開発環境構築
+
+## volta インストール
+ 
+- https://docs.volta.sh/guide/getting-started
+
+## Node.js／Yarn／Package インストール
+
+```bash
+yarn install
+```
 
 # ci
 
