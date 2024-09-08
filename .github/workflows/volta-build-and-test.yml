@@ -9,7 +9,8 @@ on:
 
 # TODO 規模拡大した場合はキャッシュを入れる
 jobs:
-  build:
+  build-and-test:
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
