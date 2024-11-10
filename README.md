@@ -9,11 +9,11 @@
 
 | name             | version | 備考                            |
 |------------------|---------|-------------------------------|
-| @biomejs/biome   | 1.8.3   | linter/formatter              |
-| typescript       | 5.5.4   | typescript                    |
-| @tsconfig/node22 | 22.0.0  | tsconfig の node22 base config |
-| @types/node      | 22.1.00 | nodejs の型指定                   |
-| vitest           | 2.0.5   | テストフレームワーク                    |
+| @biomejs/biome   | 1.8.x   | linter/formatter              |
+| typescript       | 5.5.x   | typescript                    |
+| @tsconfig/node22 | 22.x.x  | tsconfig の node22 base config |
+| @types/node      | 22.x.x | nodejs の型指定                   |
+| vitest           | 2.x.x   | テストフレームワーク                    |
 
 # 言語／パッケージ管理
 
