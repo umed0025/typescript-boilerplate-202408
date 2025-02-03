@@ -12,7 +12,7 @@
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "^22.10.1",
     "typescript": "^5.7.2",
-    "vitest": "^2.1.8"
+    "vitest": "^2.1.9"
   },
   "volta": {
     "node": "22.6.0",
