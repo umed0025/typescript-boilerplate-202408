@@ -9,3 +9,7 @@ updates:
     directory: "/batch/" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      dependencies:
+        patterns:
+          - '*'
