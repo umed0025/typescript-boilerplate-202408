@@ -10,9 +10,9 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@tsconfig/node22": "^22.0.2",
-    "@types/node": "^22.15.29",
+    "@types/node": "^22.15.30",
     "typescript": "^5.8.3",
-    "vitest": "^3.2.0"
+    "vitest": "^3.2.3"
   },
   "volta": {
     "node": "22.6.0",
