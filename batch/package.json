@@ -8,11 +8,11 @@
     "test": "yarn vitest"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.8",
+    "@biomejs/biome": "2.4.9",
     "@tsconfig/node22": "^22.0.5",
     "@types/node": "^25.5.0",
-    "typescript": "^5.9.3",
-    "vitest": "^4.1.0"
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
   },
   "volta": {
     "node": "22.19.0",
