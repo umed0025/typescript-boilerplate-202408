@@ -4,6 +4,7 @@
   "author": "umed0025 <umed0025@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "packageManager": "yarn@4.12.0",
   "scripts": {
     "test": "yarn vitest"
   },
@@ -15,7 +16,6 @@
     "vitest": "^4.1.8"
   },
   "volta": {
-    "node": "22.19.0",
-    "yarn": "1.22.22"
+    "node": "22.19.0"
   }
 }
