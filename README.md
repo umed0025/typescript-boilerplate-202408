@@ -11,7 +11,7 @@
 |------------------|---------|-------------------------------|
 | @biomejs/biome   | 1.8.x   | linter/formatter              |
 | typescript       | 5.5.x   | typescript                    |
-| @tsconfig/node22 | 22.x.x  | tsconfig の node22 base config |
+| @tsconfig/node24 | 24.x.x  | tsconfig の node24 base config |
 | @types/node      | 22.x.x | nodejs の型指定                   |
 | vitest           | 2.x.x   | テストフレームワーク                    |
 
@@ -19,23 +19,25 @@
 
 | name  | version | 備考                          |
 |-------|---------|-----------------------------|
-| node  | 22.6.0  | nodejs lts                  |
-| yarn  | 4.12.0  | 新規公開パッケージに7日間の待機期間を設定 |
-| volta | 1.1.1   | nodejs/yarn の管理             |
+| node  | 24      | nodejs lts                  |
+| npm   | 11.16.0 | 新規公開パッケージに7日間の待機期間を設定 |
+| mise  | latest  | nodejs の管理                  |
 
 # 開発環境構築
 
-## volta インストール
+## mise インストール
  
-- https://docs.volta.sh/guide/getting-started
+- https://mise.jdx.dev/getting-started.html
 
-## Node.js／Yarn／Package インストール
+## Node.js／Package インストール
 
 ```bash
-yarn install
+mise install
+cd batch
+npm install
 ```
 
 # ci
 
-- .github/workflows/volta-build-and-test.yml
+- .github/workflows/mise-build-and-test.yml
   - 標準的な nodejs build and test
