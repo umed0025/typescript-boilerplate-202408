@@ -14,9 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: volta-cli/action@v4
-      - run: corepack enable
-      - run: cd batch && yarn install --immutable
+      - uses: jdx/mise-action@v4
+      - run: cd batch && npm ci
       - env:
           TZ: 'Asia/Tokyo' # タイムゾーン指定
-        run: cd batch && yarn test
+        run: cd batch && npm test
