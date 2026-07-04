@@ -9,9 +9,9 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.16",
+    "@biomejs/biome": "2.5.1",
     "@tsconfig/node24": "^24.0.4",
-    "@types/node": "^25.9.2",
+    "@types/node": "^26.0.1",
     "typescript": "^6.0.3",
     "vitest": "^4.1.8"
   }
